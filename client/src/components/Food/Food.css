@@ -1,0 +1,66 @@
+
+.food {
+    height: 910px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: auto;
+    margin-top: -20px;
+    
+}
+
+.food::after {
+    content: "";
+    display: block;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.food * {
+    position: relative;
+    z-index: 2;
+}
+
+.food h1, .food h2 {
+    color: #910000;
+}
+
+.food h1 {
+    font-size: 60px;
+    padding-top: 140px;
+    margin-top: 0;
+}
+
+.headings {
+    margin-top: 10%;
+}
+
+.search {
+    margin-left: 85px;
+}
+
+.search Button {
+    padding: 3%;
+    /* margin-left: 14vw !important; */
+    /* float: right !important; */
+    margin-top: -45px; 
+    margin-left: 275px !important;
+    
+}
+
+.wholething{
+    margin: auto;
+    width: 500px;
+    margin-top: 200px;
+    flex-direction: row !important;
+}
+
+li{
+    font-family: 'Fredoka One', cursive;
+
+}

@@ -1,0 +1,17 @@
+h4 {
+    margin-top: 15px;
+}
+
+.header{
+    background-color: #7a1314;
+}
+
+.title{
+    font-family: 'Bangers';
+    color: gray
+}
+
+.buttoncolor{
+    background-color: #7a1314 !important;
+    
+}
